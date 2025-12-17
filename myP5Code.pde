@@ -11,9 +11,28 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+//Chin
+triangle(1,280,200,400,200,220);
+triangle(400,280,200,400,200,220);
 
-  
+//Left eye
+ellipse(0,90,300,40);
+
+/*
+arc();
+ ellipse()
+ rect()
+ line()
+ point()
+triangle() quad()
+ arc()
+ fill()
+ strokeWeight(20);
+ stroke(255,0,0);
+ fill()
+//eye
+rotate(.3)
+  */
 
 }
 
