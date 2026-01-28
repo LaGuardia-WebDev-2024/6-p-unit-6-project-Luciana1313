@@ -11,11 +11,19 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
+ //face
+ fill(250,100,100)
+ rect(0,0,400,280)
+
 //Chin
+fill(250, 200, 150)
 triangle(1,280,200,400,200,220);
+fill(150, 20, 100)
 triangle(400,280,200,400,200,220);
 
 //Left eye
+fill(50, 300, 300)
 ellipse(100,100,150,100);
 ellipse(100,100,100,100);
 ellipse(100,100,10,10);
@@ -23,15 +31,20 @@ ellipse(100,100,10,10);
 //right eye
 ellipse(300,100,150,100);
 ellipse(300,100,100,100);
+fill(0,0,0)
 ellipse(300,100,10,10);
 
 //Nose
-fill(200, 100, 199)
+fill(250, 150, 150)
 rect(160, 0, 75, 200)
 triangle(100, 250, 200, 150, 300, 250)
 
 //Lips
- rect(100, 300, 200, 300)
+fill(200, 0, 0)
+ rect(150, 300, 100, 35)
+ rect(150, 335, 100, 35)
+
+
 
 /*
 arc();
